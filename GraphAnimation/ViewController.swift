@@ -73,6 +73,7 @@ class ViewController: UIViewController {
         panGestureRecognizer.reset()
     }
     
+    //Max height of animated view
     func getMaxAnimatedViewHeight() -> CGFloat {
         let window = UIApplication.shared.keyWindow
         let bottomPadding = window?.safeAreaInsets.bottom
@@ -80,6 +81,7 @@ class ViewController: UIViewController {
         return self.backgroundImageView.frame.height - areaRemoved
     }
     
+    // Pan began
     func panBegan(panGestureRecognizer: UIPanGestureRecognizer, direction: PanDirection, point: CGPoint) {
         panGestureRecognizer.setTranslation(CGPoint(x: 0.0, y: 0.0), in: self.view)
         let maxHeight = getMaxAnimatedViewHeight()
@@ -94,15 +96,15 @@ class ViewController: UIViewController {
             self.animationView.frame = newFrame
             switch direction {
             case .up:
-                self.getTopCurve(newFrame: newFrame, point: point)
+                self.setTopCurve(newFrame: newFrame, point: point)
             case.down:
-                self.getBottomCurve(newFrame: newFrame, point: point)
+                self.setBottomCurve(newFrame: newFrame, point: point)
             }
         }
     }
     
+    // Pan ended
     func panEnded() {
-//        animatePath()
         self.resetView()
         let maxHeight = getMaxAnimatedViewHeight()
         var newFrame = animationView.frame
@@ -114,22 +116,16 @@ class ViewController: UIViewController {
             newFrame.origin.y = animationView.frame.origin.y - heightDifference
             newFrame.size.height = animationView.frame.size.height + heightDifference
             self.animationView.frame = newFrame
-            //                    UIView.animate(withDuration: 1, delay: 0, usingSpringWithDamping: 0.3, initialSpringVelocity: velocity, options: .curveEaseInOut, animations: {
-            //
-            //                    }, completion: nil)
         } else if self.animationView.frame.height > maxHeight {
             let heightDifference = self.animationView.frame.height - maxHeight
-            
             newFrame.origin.y = animationView.frame.origin.y + heightDifference
             newFrame.size.height = animationView.frame.size.height - heightDifference
             self.animationView.frame = newFrame
-            //                    UIView.animate(withDuration: 1, delay: 0, usingSpringWithDamping: 0.3, initialSpringVelocity: velocity, options: .curveEaseInOut, animations: {
-            //
-            //                    }, completion: nil)
         }
     }
     
-    func getTopCurve(newFrame: CGRect, point: CGPoint) {
+    // Create curve on top
+    func setTopCurve(newFrame: CGRect, point: CGPoint) {
         self.resetView()
         self.animationView.layer.masksToBounds = false
         self.animationView.clipsToBounds = false
@@ -147,7 +143,8 @@ class ViewController: UIViewController {
         self.animationView.layer.addSublayer(shapeLayer)
     }
     
-    func getBottomCurve(newFrame: CGRect, point: CGPoint) {
+    // Create curve under top
+    func setBottomCurve(newFrame: CGRect, point: CGPoint) {
         self.resetView()
         self.animationView.clipsToBounds = true
         let origin = CGPoint(x: 0.0, y: 0.0)
@@ -159,14 +156,14 @@ class ViewController: UIViewController {
         path.addLine(to: CGPoint(x: 0, y: newFrame.height))
         path.close()
         shapeLayer.path = path.cgPath
-//        animatePath()
         self.animationView.layer.addSublayer(shapeLayer)
         self.animationView.layer.mask = shapeLayer
         self.animationView.layer.masksToBounds = true
     }
     
+    // Reset view to initial state
     func resetView() {
-        if currentDirection == .up {
+        if self.currentDirection == .up {
             if let subLayers = self.animationView.layer.sublayers {
                 for layer in subLayers {
                     layer.removeFromSuperlayer()
@@ -175,23 +172,4 @@ class ViewController: UIViewController {
         }
         self.animationView.layer.mask = nil
     }
-    
-//    func animatePath() {
-//        let shapeLayer = CAShapeLayer()
-//        let origin = CGPoint(x: 0.0, y: 0.0)
-//        let path = UIBezierPath()
-//        path.move(to: origin)
-//        path.addLine(to: CGPoint(x: self.animationView.frame.width, y: 0))
-//        path.addLine(to: CGPoint(x: self.animationView.frame.width, y: self.animationView.frame.height))
-//        path.addLine(to: CGPoint(x: 0, y: self.animationView.frame.height))
-//        path.close()
-//        let pathAnimation = CABasicAnimation(keyPath: "path")
-//        pathAnimation.toValue = path.cgPath
-//        pathAnimation.duration = 0.75
-//        pathAnimation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeInEaseOut)
-//        pathAnimation.autoreverses = false
-//        pathAnimation.repeatCount = .leastNonzeroMagnitude
-//        shapeLayer.add(pathAnimation, forKey: "pathAnimation")
-//        shapeLayer.path = path.cgPath
-//    }
 }
