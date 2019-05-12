@@ -2,6 +2,35 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleLightContent</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>BebasNeue.otf</string>
+		<string>DINNextLTPro-Black.otf</string>
+		<string>DINNextLTPro-BlackCondensed.otf</string>
+		<string>DINNextLTPro-BlackItalic.otf</string>
+		<string>DINNextLTPro-Bold.otf</string>
+		<string>DINNextLTPro-BoldCondensed.otf</string>
+		<string>DINNextLTPro-BoldItalic.otf</string>
+		<string>DINNextLTPro-Condensed.otf</string>
+		<string>DINNextLTPro-Heavy.otf</string>
+		<string>DINNextLTPro-HeavyCondensed.otf</string>
+		<string>DINNextLTPro-HeavyItalic.otf</string>
+		<string>DINNextLTPro-Italic.otf</string>
+		<string>DINNextLTPro-Light.otf</string>
+		<string>DINNextLTPro-LightCondensed.otf</string>
+		<string>DINNextLTPro-LightItalic.otf</string>
+		<string>DINNextLTPro-Medium.otf</string>
+		<string>DINNextLTPro-MediumCond.otf</string>
+		<string>DINNextLTPro-MediumItalic.otf</string>
+		<string>DINNextLTPro-Regular.otf</string>
+		<string>DINNextLTPro-UltraLight.otf</string>
+		<string>DINNextLTPro-UltraLightCond.otf</string>
+		<string>DINNextLTPro-UltraLightIt.otf</string>
+	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
@@ -41,5 +70,7 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>LSApplicationCategoryType</key>
+	<string>DINNextLTPro-MediumCond.otf</string>
 </dict>
 </plist>

@@ -12,6 +12,31 @@
 		B61424372284C4F200A5ACFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B61424352284C4F200A5ACFE /* Main.storyboard */; };
 		B61424392284C4F300A5ACFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B61424382284C4F300A5ACFE /* Assets.xcassets */; };
 		B614243C2284C4F300A5ACFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B614243A2284C4F300A5ACFE /* LaunchScreen.storyboard */; };
+		B614D9382286C83900475953 /* NavigationBarExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = B614D9372286C83900475953 /* NavigationBarExtention.swift */; };
+		B614D9942286CF8700475953 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B614D9932286CF8700475953 /* Constants.swift */; };
+		B614D9962286DD8000475953 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B614D9952286DD8000475953 /* ViewExtension.swift */; };
+		B68BAC672286EC6A00FC0EE9 /* DINNextLTPro-BlackCondensed.otf in Resources */ = {isa = PBXBuildFile; fileRef = B68BAC512286EC6A00FC0EE9 /* DINNextLTPro-BlackCondensed.otf */; };
+		B68BAC682286EC6A00FC0EE9 /* DINNextLTPro-MediumCond.otf in Resources */ = {isa = PBXBuildFile; fileRef = B68BAC522286EC6A00FC0EE9 /* DINNextLTPro-MediumCond.otf */; };
+		B68BAC692286EC6A00FC0EE9 /* DINNextLTPro-HeavyCondensed.otf in Resources */ = {isa = PBXBuildFile; fileRef = B68BAC532286EC6A00FC0EE9 /* DINNextLTPro-HeavyCondensed.otf */; };
+		B68BAC6A2286EC6A00FC0EE9 /* DINNextLTPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B68BAC542286EC6A00FC0EE9 /* DINNextLTPro-Bold.otf */; };
+		B68BAC6B2286EC6A00FC0EE9 /* DINNextLTPro-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = B68BAC552286EC6A00FC0EE9 /* DINNextLTPro-Light.otf */; };
+		B68BAC6C2286EC6A00FC0EE9 /* DINNextLTPro-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = B68BAC562286EC6A00FC0EE9 /* DINNextLTPro-Medium.otf */; };
+		B68BAC6D2286EC6A00FC0EE9 /* DINNextLTPro-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B68BAC572286EC6A00FC0EE9 /* DINNextLTPro-MediumItalic.otf */; };
+		B68BAC6E2286EC6A00FC0EE9 /* DINNextLTPro-BoldCondensed.otf in Resources */ = {isa = PBXBuildFile; fileRef = B68BAC582286EC6A00FC0EE9 /* DINNextLTPro-BoldCondensed.otf */; };
+		B68BAC6F2286EC6A00FC0EE9 /* BebasNeue.otf in Resources */ = {isa = PBXBuildFile; fileRef = B68BAC592286EC6A00FC0EE9 /* BebasNeue.otf */; };
+		B68BAC702286EC6A00FC0EE9 /* DINNextLTPro-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = B68BAC5A2286EC6A00FC0EE9 /* DINNextLTPro-Black.otf */; };
+		B68BAC712286EC6A00FC0EE9 /* DINNextLTPro-Condensed.otf in Resources */ = {isa = PBXBuildFile; fileRef = B68BAC5B2286EC6A00FC0EE9 /* DINNextLTPro-Condensed.otf */; };
+		B68BAC722286EC6A00FC0EE9 /* DINNextLTPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B68BAC5C2286EC6A00FC0EE9 /* DINNextLTPro-Regular.otf */; };
+		B68BAC732286EC6A00FC0EE9 /* DINNextLTPro-UltraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = B68BAC5D2286EC6A00FC0EE9 /* DINNextLTPro-UltraLight.otf */; };
+		B68BAC742286EC6A00FC0EE9 /* DINNextLTPro-UltraLightCond.otf in Resources */ = {isa = PBXBuildFile; fileRef = B68BAC5E2286EC6A00FC0EE9 /* DINNextLTPro-UltraLightCond.otf */; };
+		B68BAC752286EC6A00FC0EE9 /* DINNextLTPro-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B68BAC5F2286EC6A00FC0EE9 /* DINNextLTPro-Italic.otf */; };
+		B68BAC762286EC6A00FC0EE9 /* DINNextLTPro-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = B68BAC602286EC6A00FC0EE9 /* DINNextLTPro-Heavy.otf */; };
+		B68BAC772286EC6A00FC0EE9 /* DINNextLTPro-LightCondensed.otf in Resources */ = {isa = PBXBuildFile; fileRef = B68BAC612286EC6A00FC0EE9 /* DINNextLTPro-LightCondensed.otf */; };
+		B68BAC782286EC6A00FC0EE9 /* DINNextLTPro-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B68BAC622286EC6A00FC0EE9 /* DINNextLTPro-BoldItalic.otf */; };
+		B68BAC792286EC6A00FC0EE9 /* DINNextLTPro-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B68BAC632286EC6A00FC0EE9 /* DINNextLTPro-LightItalic.otf */; };
+		B68BAC7A2286EC6A00FC0EE9 /* DINNextLTPro-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B68BAC642286EC6A00FC0EE9 /* DINNextLTPro-HeavyItalic.otf */; };
+		B68BAC7B2286EC6A00FC0EE9 /* DINNextLTPro-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B68BAC652286EC6A00FC0EE9 /* DINNextLTPro-BlackItalic.otf */; };
+		B68BAC7C2286EC6A00FC0EE9 /* DINNextLTPro-UltraLightIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = B68BAC662286EC6A00FC0EE9 /* DINNextLTPro-UltraLightIt.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +47,31 @@
 		B61424382284C4F300A5ACFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B614243B2284C4F300A5ACFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B614243D2284C4F300A5ACFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B614D9372286C83900475953 /* NavigationBarExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarExtention.swift; sourceTree = "<group>"; };
+		B614D9932286CF8700475953 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B614D9952286DD8000475953 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		B68BAC512286EC6A00FC0EE9 /* DINNextLTPro-BlackCondensed.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-BlackCondensed.otf"; sourceTree = "<group>"; };
+		B68BAC522286EC6A00FC0EE9 /* DINNextLTPro-MediumCond.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-MediumCond.otf"; sourceTree = "<group>"; };
+		B68BAC532286EC6A00FC0EE9 /* DINNextLTPro-HeavyCondensed.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-HeavyCondensed.otf"; sourceTree = "<group>"; };
+		B68BAC542286EC6A00FC0EE9 /* DINNextLTPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-Bold.otf"; sourceTree = "<group>"; };
+		B68BAC552286EC6A00FC0EE9 /* DINNextLTPro-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-Light.otf"; sourceTree = "<group>"; };
+		B68BAC562286EC6A00FC0EE9 /* DINNextLTPro-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-Medium.otf"; sourceTree = "<group>"; };
+		B68BAC572286EC6A00FC0EE9 /* DINNextLTPro-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-MediumItalic.otf"; sourceTree = "<group>"; };
+		B68BAC582286EC6A00FC0EE9 /* DINNextLTPro-BoldCondensed.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-BoldCondensed.otf"; sourceTree = "<group>"; };
+		B68BAC592286EC6A00FC0EE9 /* BebasNeue.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BebasNeue.otf; sourceTree = "<group>"; };
+		B68BAC5A2286EC6A00FC0EE9 /* DINNextLTPro-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-Black.otf"; sourceTree = "<group>"; };
+		B68BAC5B2286EC6A00FC0EE9 /* DINNextLTPro-Condensed.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-Condensed.otf"; sourceTree = "<group>"; };
+		B68BAC5C2286EC6A00FC0EE9 /* DINNextLTPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-Regular.otf"; sourceTree = "<group>"; };
+		B68BAC5D2286EC6A00FC0EE9 /* DINNextLTPro-UltraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-UltraLight.otf"; sourceTree = "<group>"; };
+		B68BAC5E2286EC6A00FC0EE9 /* DINNextLTPro-UltraLightCond.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-UltraLightCond.otf"; sourceTree = "<group>"; };
+		B68BAC5F2286EC6A00FC0EE9 /* DINNextLTPro-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-Italic.otf"; sourceTree = "<group>"; };
+		B68BAC602286EC6A00FC0EE9 /* DINNextLTPro-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-Heavy.otf"; sourceTree = "<group>"; };
+		B68BAC612286EC6A00FC0EE9 /* DINNextLTPro-LightCondensed.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-LightCondensed.otf"; sourceTree = "<group>"; };
+		B68BAC622286EC6A00FC0EE9 /* DINNextLTPro-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-BoldItalic.otf"; sourceTree = "<group>"; };
+		B68BAC632286EC6A00FC0EE9 /* DINNextLTPro-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-LightItalic.otf"; sourceTree = "<group>"; };
+		B68BAC642286EC6A00FC0EE9 /* DINNextLTPro-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-HeavyItalic.otf"; sourceTree = "<group>"; };
+		B68BAC652286EC6A00FC0EE9 /* DINNextLTPro-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-BlackItalic.otf"; sourceTree = "<group>"; };
+		B68BAC662286EC6A00FC0EE9 /* DINNextLTPro-UltraLightIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-UltraLightIt.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +104,55 @@
 		B61424302284C4F200A5ACFE /* GraphAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				B614D9922286CF6D00475953 /* Extentions */,
+				B614D9392286CA5900475953 /* Fonts */,
 				B61424312284C4F200A5ACFE /* AppDelegate.swift */,
 				B61424332284C4F200A5ACFE /* ViewController.swift */,
 				B61424352284C4F200A5ACFE /* Main.storyboard */,
 				B61424382284C4F300A5ACFE /* Assets.xcassets */,
 				B614243A2284C4F300A5ACFE /* LaunchScreen.storyboard */,
 				B614243D2284C4F300A5ACFE /* Info.plist */,
+				B614D9932286CF8700475953 /* Constants.swift */,
 			);
 			path = GraphAnimation;
+			sourceTree = "<group>";
+		};
+		B614D9392286CA5900475953 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B68BAC592286EC6A00FC0EE9 /* BebasNeue.otf */,
+				B68BAC5A2286EC6A00FC0EE9 /* DINNextLTPro-Black.otf */,
+				B68BAC512286EC6A00FC0EE9 /* DINNextLTPro-BlackCondensed.otf */,
+				B68BAC652286EC6A00FC0EE9 /* DINNextLTPro-BlackItalic.otf */,
+				B68BAC542286EC6A00FC0EE9 /* DINNextLTPro-Bold.otf */,
+				B68BAC582286EC6A00FC0EE9 /* DINNextLTPro-BoldCondensed.otf */,
+				B68BAC622286EC6A00FC0EE9 /* DINNextLTPro-BoldItalic.otf */,
+				B68BAC5B2286EC6A00FC0EE9 /* DINNextLTPro-Condensed.otf */,
+				B68BAC602286EC6A00FC0EE9 /* DINNextLTPro-Heavy.otf */,
+				B68BAC532286EC6A00FC0EE9 /* DINNextLTPro-HeavyCondensed.otf */,
+				B68BAC642286EC6A00FC0EE9 /* DINNextLTPro-HeavyItalic.otf */,
+				B68BAC5F2286EC6A00FC0EE9 /* DINNextLTPro-Italic.otf */,
+				B68BAC552286EC6A00FC0EE9 /* DINNextLTPro-Light.otf */,
+				B68BAC612286EC6A00FC0EE9 /* DINNextLTPro-LightCondensed.otf */,
+				B68BAC632286EC6A00FC0EE9 /* DINNextLTPro-LightItalic.otf */,
+				B68BAC562286EC6A00FC0EE9 /* DINNextLTPro-Medium.otf */,
+				B68BAC522286EC6A00FC0EE9 /* DINNextLTPro-MediumCond.otf */,
+				B68BAC572286EC6A00FC0EE9 /* DINNextLTPro-MediumItalic.otf */,
+				B68BAC5C2286EC6A00FC0EE9 /* DINNextLTPro-Regular.otf */,
+				B68BAC5D2286EC6A00FC0EE9 /* DINNextLTPro-UltraLight.otf */,
+				B68BAC5E2286EC6A00FC0EE9 /* DINNextLTPro-UltraLightCond.otf */,
+				B68BAC662286EC6A00FC0EE9 /* DINNextLTPro-UltraLightIt.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B614D9922286CF6D00475953 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				B614D9372286C83900475953 /* NavigationBarExtention.swift */,
+				B614D9952286DD8000475953 /* ViewExtension.swift */,
+			);
+			path = Extentions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +213,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B68BAC6E2286EC6A00FC0EE9 /* DINNextLTPro-BoldCondensed.otf in Resources */,
 				B614243C2284C4F300A5ACFE /* LaunchScreen.storyboard in Resources */,
+				B68BAC742286EC6A00FC0EE9 /* DINNextLTPro-UltraLightCond.otf in Resources */,
+				B68BAC6F2286EC6A00FC0EE9 /* BebasNeue.otf in Resources */,
+				B68BAC702286EC6A00FC0EE9 /* DINNextLTPro-Black.otf in Resources */,
+				B68BAC7C2286EC6A00FC0EE9 /* DINNextLTPro-UltraLightIt.otf in Resources */,
+				B68BAC792286EC6A00FC0EE9 /* DINNextLTPro-LightItalic.otf in Resources */,
+				B68BAC682286EC6A00FC0EE9 /* DINNextLTPro-MediumCond.otf in Resources */,
+				B68BAC752286EC6A00FC0EE9 /* DINNextLTPro-Italic.otf in Resources */,
+				B68BAC6C2286EC6A00FC0EE9 /* DINNextLTPro-Medium.otf in Resources */,
+				B68BAC712286EC6A00FC0EE9 /* DINNextLTPro-Condensed.otf in Resources */,
+				B68BAC772286EC6A00FC0EE9 /* DINNextLTPro-LightCondensed.otf in Resources */,
+				B68BAC6D2286EC6A00FC0EE9 /* DINNextLTPro-MediumItalic.otf in Resources */,
+				B68BAC692286EC6A00FC0EE9 /* DINNextLTPro-HeavyCondensed.otf in Resources */,
+				B68BAC722286EC6A00FC0EE9 /* DINNextLTPro-Regular.otf in Resources */,
+				B68BAC732286EC6A00FC0EE9 /* DINNextLTPro-UltraLight.otf in Resources */,
 				B61424392284C4F300A5ACFE /* Assets.xcassets in Resources */,
+				B68BAC6A2286EC6A00FC0EE9 /* DINNextLTPro-Bold.otf in Resources */,
+				B68BAC6B2286EC6A00FC0EE9 /* DINNextLTPro-Light.otf in Resources */,
+				B68BAC672286EC6A00FC0EE9 /* DINNextLTPro-BlackCondensed.otf in Resources */,
 				B61424372284C4F200A5ACFE /* Main.storyboard in Resources */,
+				B68BAC7A2286EC6A00FC0EE9 /* DINNextLTPro-HeavyItalic.otf in Resources */,
+				B68BAC782286EC6A00FC0EE9 /* DINNextLTPro-BoldItalic.otf in Resources */,
+				B68BAC7B2286EC6A00FC0EE9 /* DINNextLTPro-BlackItalic.otf in Resources */,
+				B68BAC762286EC6A00FC0EE9 /* DINNextLTPro-Heavy.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +249,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B61424342284C4F200A5ACFE /* ViewController.swift in Sources */,
+				B614D9382286C83900475953 /* NavigationBarExtention.swift in Sources */,
 				B61424322284C4F200A5ACFE /* AppDelegate.swift in Sources */,
+				B614D9942286CF8700475953 /* Constants.swift in Sources */,
+				B614D9962286DD8000475953 /* ViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
